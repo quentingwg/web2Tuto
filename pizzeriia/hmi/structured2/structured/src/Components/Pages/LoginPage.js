@@ -1,7 +1,7 @@
 import {clearPage,renderPageTitle} from '../../utils/render'
 
 const LoginPage = () => {
-    clearPage;
+    clearPage();
     renderPageTitle('Login');
     renderRegisterForm();
 
